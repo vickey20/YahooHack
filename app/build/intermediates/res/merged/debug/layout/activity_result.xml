@@ -1,0 +1,384 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.discover.yahoohack.ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
+<!--
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView" />
+-->
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usernameTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="$216"
+                            android:textSize="20dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/messageTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="round trip"/>
+                    </TableRow>
+                </TableLayout>
+
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/depTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="SEA"
+                            android:textSize="20dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/depTimeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8:12am"/>
+                    </TableRow>
+                </TableLayout>
+
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/arriveTextView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="Banff"
+                            android:textSize="20dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/arriveTimeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12:12pm"/>
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/book1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="#81DB65"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/usernameTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="$196"
+                            android:textSize="20dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/messageTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="round trip"/>
+                    </TableRow>
+                </TableLayout>
+
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/depTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="SEA"
+                            android:textSize="20dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/depTimeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11:00am"/>
+                    </TableRow>
+                </TableLayout>
+
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp">
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/arriveTextView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:text="Banff"
+                            android:textSize="20dp"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/arriveTimeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3:00pm"/>
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/book2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book Now"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="#81DB65"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="25dp">
+                <ImageView
+                    android:id="@+id/placesImageView"
+                    android:layout_width="fill_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="600px"
+                    android:src="@drawable/newyork"/>
+
+                <TextView
+                    android:id="@+id/placesTextView"
+                    android:text="Places to see "
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/abc_primary_text_material_dark"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="40dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/placesButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discover"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:onClick="openPlacesSearch"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="25dp">
+                <ImageView
+                    android:id="@+id/restaurantsImageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="600px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/newyork"/>
+
+                <TextView
+                    android:id="@+id/restaurantsTextView"
+                    android:text="Restaurants"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/abc_primary_text_material_dark"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="40dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/restaurantsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discover"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:onClick="openRestaurantsSearch"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="25dp">
+                <ImageView
+                    android:id="@+id/adImageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="600px"
+                    android:scaleType="fitXY"
+                    android:background="#81DB65"/>
+
+                <TextView
+                    android:id="@+id/adTextView"
+                    android:text="Yahoo native ads go here"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@color/abc_primary_text_material_dark"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="40dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/adButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discover"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:onClick="openAd"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="25dp">
+                <ImageView
+                    android:id="@+id/toDoImageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="600px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/newyork"/>
+
+                <TextView
+                    android:id="@+id/toDoTextView"
+                    android:text="Hotels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/abc_primary_text_material_dark"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="40dp"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:id="@+id/toDoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discover"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:onClick="openHotelsSearch"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/C:/AndroidStudioWorkspace/YahooHack/app/src/main/res/layout/activity_result.xml -->
